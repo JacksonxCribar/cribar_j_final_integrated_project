@@ -1,6 +1,4 @@
-console.log("javacript is now linked up");
-
-
+console.log("javascript is now linked up");
 
 
 
