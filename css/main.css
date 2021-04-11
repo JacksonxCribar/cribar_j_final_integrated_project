@@ -47,6 +47,8 @@ a
 }
 
 
+
+
 .mainHeader
 {
 
@@ -78,6 +80,8 @@ a
         -o-transform: scale(1.2);
         transform: scale(1.2);
 }
+
+
 
 .mainNav
 {
@@ -124,7 +128,34 @@ a
 
 
 
+@media screen and (min-width: 907px) {
 
+  #container
+  {
+    max-width: 1920px;
+    height: auto;
+  }
+
+
+  .mainHeader
+  {
+    max-width: 100%
+
+  }
+
+  .promoText
+  {
+    max-width: 100%
+  }
+
+  .mainPart
+  {
+    max-width: 100%
+  }
+
+  
+
+}
 
 
 
@@ -177,7 +208,7 @@ a
   width: 690px;
   height: 560px;
   margin-right: auto;
-  margin-left: 134px;
+  margin-left: 50px;
   border-radius: 20px;
   background-image: url(../images/logo/logo_main_low.png);
   background-repeat: no-repeat;
@@ -227,8 +258,11 @@ a
  
   margin-top: 105px;
   /*height: 300px;*/
+  margin-right: 40px;
  
 }
+
+
 
 
 
@@ -242,6 +276,7 @@ a
   -moz-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
+
 
   
 }
@@ -281,6 +316,7 @@ a
 {
   
   margin-top: 34px;
+  margin-right: 40px;
   
  
 }
@@ -385,7 +421,20 @@ a
   color: #628bff;
   text-decoration: underline;
   font-family: open_sansbold;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
 
+}
+
+.headerTitle h1:hover
+{
+  -ms-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
 }
 
 .headerTitle p
@@ -402,12 +451,27 @@ a
 
 .clearCare h1
 {
-  font-size: 71px;
+  font-size: 40px;
   color: #628bff;
   text-decoration: underline;
   font-family: open_sansbold;
   margin-top: 20px;
+  
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
 }
+
+.clearCare h1:hover
+{
+  -ms-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
 
 .clearCare p
 {
@@ -474,11 +538,23 @@ a
 
 .emailCapture h1
 {
-  font-size: 40px;
+  font-size: 71px;
   color: #628bff;
   text-decoration: underline;
   margin-top: 65px;
   font-family: open_sansbold;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.emailCapture h1:hover
+{
+  -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
 }
 
 .emailButton
@@ -523,9 +599,20 @@ a
   color: #628bff;
   text-decoration: underline;
   font-family: open_sansbold;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
 
 }
 
+.socialMedia h1:hover
+{
+  -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+}
 
 .insta
 {
@@ -616,11 +703,24 @@ a
 
 .historyTitle
 {
-  font-size: 40px;
+  font-size: 71px;
   color: #628bff;
   text-decoration: underline;
   margin-top: 20px;
   font-family: open_sansbold;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+
+}
+
+.historyTitle:hover
+{
+  -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
 }
 
 
@@ -678,6 +778,7 @@ a
   margin-top: 20px;
   margin-bottom: 50px;
   font-family: open_sansbold;
+  font-size: 20px;
 }
 
 .text2
@@ -686,6 +787,101 @@ a
 
 }
 
+
+
+.sixPack
+{
+  margin-top: 20px;
+
+}
+
+.sixPack p
+{
+    font-family: open_sansbold;
+    margin-top: 20px;
+    font-size: 40px;
+    -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.sixPack p:hover
+{
+  -ms-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.sixPack img
+{
+  border-radius: 2000px;
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer;
+
+}
+
+.sixPack img:hover
+{
+  -ms-transform: scale(.95);
+        -moz-transform: scale(.95);
+        -webkit-transform: scale(.95);
+        -o-transform: scale(.95);
+        transform: scale(.95);
+}
+
+.hat
+{
+  margin-top: 40px;
+}
+
+.hat p
+{
+  font-family: open_sansbold;
+  margin-top: 20px;
+  font-size: 40px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.hat p:hover
+{
+  -ms-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1); 
+}
+
+.hat img
+{
+  border-radius: 1000px;
+   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.hat img:hover
+{
+  -ms-transform: scale(.95);
+        -moz-transform: scale(.95);
+        -webkit-transform: scale(.95);
+        -o-transform: scale(.95);
+        transform: scale(.95);
+}
 
 
 
@@ -698,8 +894,8 @@ a
   display: block;
 }
 
-@media screen and (min-resolution: 200dpi),
-       screen and (min-resolution: 1.25dppx){
+
+
 
 
 
